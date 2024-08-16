@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .content {
+            flex: 1;
+        }
+        .bg {
+            background-image: url("https://harshit158.github.io/static/img/back.jpg");
+            height: 100%; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .navbar-brand {
+            color: rgb(255, 0, 0);
+        }
+        .nav-link {
+            color: rgb(240, 248, 255);
+        }
+        .nav-link.active {
+            color: aliceblue;
+        }
+        .footer-links a {
+            text-decoration: none;
+        }
+        footer {
+            padding: 20px;
+            background-color: rgb(235, 227, 227);
+            border-style: solid;
+            border-bottom-width: 40px;
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="bg content">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">DIVISHA M</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="portfolio.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="skills.html">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="education.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Education
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">SSLC</a></li>
+                                    <li><a class="dropdown-item" href="#">HSC</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Programming Courses</a></li>
+                                    <li><a class="dropdown-item" href="#">Professional Courses</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search.." aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="container text-center my-5">
+                <h3 style=color:beige;>Analitical Proficiency !!</h3>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Soft Skills</h5>
+                                <p class="card-text">Strong Communication Skill</p>
+                                <a href="#" class="btn btn-primary">Reference</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding Skills</h5>
+                                <p class="card-text">Programming knowledge to become a developer</p>
+                                <a href="#" class="btn btn-primary">Reference</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Other skills</h5>
+                                <p class="card-text">Completed spellbee program and got degree in BA HINDI</p>
+                                <a href="#" class="btn btn-primary">Reference</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center">
+            <p class="footer-links">Contact us<br>Phone number: +91 9345655403&nbsp;&nbsp;Email: <a href="mailto:mdivisha2005@gmail.com">mdivisha2005@gmail.com</a><br>Follow me through<br>
+                <a href="#" class="fa fa-facebook footer-links"></a>&nbsp;
+                <a href="#" class="fa fa-twitter footer-links"></a>&nbsp;
+                <a href="#" class="fa fa-whatsapp footer-links"></a>&nbsp;
+                <a href="#" class="fa fa-instagram footer-links"></a>&nbsp;
+                <a href="#" class="fa fa-github footer-links"></a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
